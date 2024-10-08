@@ -13,7 +13,6 @@ class Bus extends Vehicle {
     }
 }
 
-// Example usage
 $bus = new Bus("City Bus", 60, 15);
 echo "Total fare for the bus: " . $bus->fare(); 
 ?>
